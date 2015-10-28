@@ -55,12 +55,8 @@ table {
   border-spacing: 0;
 }
 
-html {
-    font-size : 62.5%;
-}
-
 body {
-    font-size: 1.4rem;
+    font-family:  "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
 }
 
 header {
@@ -68,15 +64,14 @@ header {
     height      : 200px;
     background-color   : #EDA184;
     color       : #fff;
-    display:    block;
+    display     : block;
 }
 
 h1 {
-    line-height : 1em;
+    line-height : 1.2em;
     position    : relative;
     top : 50%;
-    margin-top  : -2em;
-    font-weight : normal;
+    margin-top  : -2.4em;
 }
 
 section.logo {
@@ -105,7 +100,7 @@ nav {
     bottom  : 30px;
     position: fixed;
     left    : 50%;
-    margin-left : -130px;
+    margin-left : -139px;
     background: #fff;
     border: 4px solid #EDA184;
     color   : #333;
