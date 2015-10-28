@@ -1,0 +1,135 @@
+/* 
+Eric Meyer's CSS Reset
+http://meyerweb.com/eric/tools/css/reset/
+v1.0 | 20080212
+CSSresetr.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+ 
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+ 
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+ 
+/* tables still need 'cellspacing=0' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+    font-size : 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+header {
+    text-align  : center;
+    height      : 200px;
+    background-color   : #EDA184;
+    color       : #fff;
+    display:    block;
+}
+
+h1 {
+    line-height : 1em;
+    position    : relative;
+    top : 50%;
+    margin-top  : -2em;
+    font-weight : normal;
+}
+
+section.logo {
+    text-align  : center;
+    margin  : 20px auto;
+}
+
+section.description {
+    text-align  : center;
+    font-size   : 85%;
+    color       : #333;
+}
+
+nav {
+    text-align: center;
+}
+
+.arrow_box {
+    font-size   : 70%;
+    text-align  : center;
+    line-height : 120%;
+    padding : 10px 5px;
+    width   : 260px;
+    height  : auto;
+    margin  : 0 auto;
+    bottom  : 30px;
+    position: fixed;
+    left    : 50%;
+    margin-left : -130px;
+    background: #fff;
+    border: 4px solid #EDA184;
+    color   : #333;
+}
+.arrow_box:after, .arrow_box:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #fff;
+    border-width: 20px;
+    margin-left: -20px;
+}
+.arrow_box:before {
+    border-color: rgba(237, 161, 132, 0);
+    border-top-color: #EDA184;
+    border-width: 26px;
+    margin-left: -26px;
+}
